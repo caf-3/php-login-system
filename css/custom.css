@@ -1,0 +1,72 @@
+.erro{
+    background-color: white;
+    color: red;
+}
+.sucesso{
+    background-color: white;
+    color: blue;
+}
+.flow-text{
+    font-weight: lighter;
+}
+.footer-copyright {
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+section .row .col{
+    padding-left: 0;
+    padding-right: 0;
+}
+.responsive-img img{
+    margin-left: 2%;
+}
+
+main.container{
+    margin-top : 10%;
+}
+
+div.row.formulario, .tabs-content.carousel.carousel-slider{
+    height : 100vh;
+}
+#genero{
+    padding-left : 40px;
+}
+ul.tabs{
+    background-color: white;
+}
+.tabs .tab a:hover{
+    color : black;
+}
+.tabs .tab a.active, .tabs .tab a:focus.active{
+    background-color : rgba(0,0,0, 0.5);
+}
+.tabs .tab a{
+    color : rgba(0, 0, 0, 0.5);
+}
+li.indicator{
+    background-color : #f89302 ! important;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after{
+    border-color : #f89302;
+
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{
+    background-color: #f89302;
+}
+.input-field .prefix.active{
+    color : #f89302 !important;
+}
+.waves-effect.waves-c-orange .waves-ripple{
+    background-color : #f89302;
+}
+.tabs-content{
+    height: 100vh !important;
+}
+
+@media screen and (max-width : 600px){
+    button.btn{
+        width : 100%;
+    }
+}
